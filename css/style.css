@@ -1,0 +1,74 @@
+body {
+    padding: 100px;
+}
+.face {
+    width: 500px;
+    height: 500px;
+    background: beige;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+.nose {
+    width: 20px;
+    height: 20px;
+    background: black;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    border-radius: 30%;}
+.eye1 {
+    width: 80px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    border-radius: 50%;}
+.eye2 {
+    width: 80px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    top: 120px;
+    left: 320px;
+    border-radius: 50%;}
+.eye1white {
+    width: 40px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    border-radius: 50%;}
+.eye2white {
+    width: 40px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    top: 140px;
+    left: 340px;
+    border-radius: 50%;}
+.mouth {
+    width: 280px;
+    height: 40px;
+    /* background: black; */
+    position: absolute;
+    top: 340px;
+    left: 110px;
+    border: 5px solid black;
+    border-radius: 50%;
+    border-width: 0 0 5px 0;}
+.nose:hover {
+    background: green;}
+.face:hover {
+    cursor:help;}
+.face:hover .mouth {
+    transition-duration: 3s;
+    border: 5px solid red;
+    border-width: 0 0 5px 1;
+    border-radius: 50%;}
+.face:hover {
+    transition-duration: 3s;
+    background-color: salmon;
+}
